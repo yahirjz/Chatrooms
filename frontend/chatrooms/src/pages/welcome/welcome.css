@@ -1,0 +1,16 @@
+.welcome{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    height: 100vh; /* altura de la pantalla */
+}
+.header{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 365px;
+}   
