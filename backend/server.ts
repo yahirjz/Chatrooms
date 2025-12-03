@@ -14,7 +14,7 @@ import cors from "cors";
 // Creamos una instancia de express
 const app = express();
 // Creamos un puerto
-const PORT = process.env.PORT || 3000; // Así está bien
+const port = process.env.PORT || 3000; // Así está bien
 
 
 // Usamos cors
