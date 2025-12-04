@@ -28,7 +28,7 @@ const roomsCollection = firestore.collection("rooms");
 
 // Servir archivos estáticos del frontend
 // Servir archivos estáticos del frontend
-const distPath = path.resolve(__dirname, "../frontend/chatrooms/dist");
+const distPath = path.resolve(__dirname, "../../frontend/chatrooms/dist");
 app.use(express.static(distPath));
 
 // ----- endpoint singup(crear un usuario) -----
